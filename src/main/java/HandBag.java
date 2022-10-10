@@ -6,7 +6,7 @@
  * You may find the readings in chapter 3. Relationships between Classes
  * helpful while working through this exercise.
  */
-public class HandBag extends Bag{
+public class HandBag extends Bag {
 
     /**
      * Creates a new HandBag with the given color and
@@ -28,11 +28,6 @@ public class HandBag extends Bag{
      */
     @Override
     public void enhance() {
-        /* TODO: Implement this method.
-         *       You may want to use the increaseCapacity() method that was
-         *       implemented in Bag.
-         *
-         * To call a method defined in a parent, you use super.method_name(...)
-         */
+        increaseCapacity(1);
     }
 }
